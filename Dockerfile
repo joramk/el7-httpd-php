@@ -2,7 +2,7 @@ FROM    joramk/el7-base:latest
 MAINTAINER joramk@gmail.com
 ENV     container docker
 
-LABEL   name="CentOS 7 - Latest Apache / PHP / phpMyAdmin" \
+LABEL   name="CentOS 7 - Latest Apache / PHP 7.0 / phpMyAdmin" \
         vendor="https://github.com/joramk/el7-httpd-php" \
         license="none" \
         build-date="20171008" \
